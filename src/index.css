@@ -1,0 +1,97 @@
+/* Reset some defaults */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for page content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+/* Header */
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Search Input */
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+/* Job Card */
+.card {
+  background-color: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin: 0 0 10px 0;
+  color: #2c3e50;
+}
+
+.card p {
+  margin: 5px 0 10px;
+  color: #555;
+}
+
+/* Link */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.job-details-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.job-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+  line-height: 1.6;
+  border: 1px solid #e3e3e3;
+}
+
+.job-card h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.job-card p {
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.job-card strong {
+  color: #333;
+}
